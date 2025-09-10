@@ -67,7 +67,7 @@
               class="sidebar-dropdown list-unstyled collapse"
               data-bs-parent="#sidebar">
               <li class="sidebar-item">
-                <a href="#" class="sidebar-link">商品欄</a>
+                <a href="#" class="sidebar-link">商品管理</a>
               </li>
               <li class="sidebar-item">
                 <a href="#" class="sidebar-link">新增商品</a>
@@ -118,7 +118,7 @@
                 <a href="#" class="sidebar-link">帳號資訊</a>
               </li>
               <li class="sidebar-item">
-                <a href="#" class="sidebar-link">帳號設定</a>
+                <a href="#" class="sidebar-link">管理設定</a>
               </li>
               <li class="sidebar-item">
                 <a href="#" class="sidebar-link">登出</a>

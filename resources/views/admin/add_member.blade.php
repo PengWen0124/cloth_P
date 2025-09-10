@@ -1,6 +1,3 @@
-@extends("Backstage")
-@section("title","新增會員資料")
-@section("content")
 <div class="container-fluid">
   <div class="col-12 col-md-8 p-5">
     <h2 class="text-center">新增會員資料</h2>

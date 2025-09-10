@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My own clothes 後臺管理</title>
+  <title>My own clothes 後臺登入</title>
   <style>
     body {
       font-family: "Zen Maru Gothic", serif;
