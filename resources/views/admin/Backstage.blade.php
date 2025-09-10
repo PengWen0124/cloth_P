@@ -46,7 +46,7 @@
               class="sidebar-dropdown list-unstyled collapse"
               data-bs-parent="#sidebar">
               <li class="sidebar-item">
-                <a href="#" class="sidebar-link">會員紀錄</a>
+                <a href="#" class="sidebar-link">會員資料</a>
               </li>
               <li class="sidebar-item">
                 <a href="#" class="sidebar-link">新增會員</a>
