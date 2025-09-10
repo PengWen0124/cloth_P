@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+
+
+:root{
+    --mycolor01: #262a33;
+    --mycolor02: #3d3441;
+    --mycolor03: #44A7A6;
+    --mycolor04: #69D4D0;
+    
+    
+    
+}
+
+
+.myroller{
+    position: relative;
+    overflow: hidden;
+}
+.myroller .roller{
+    position: absolute;
+    background-image: linear-gradient(90deg, rgba(95, 160, 160, 0.3), rgba(12, 31, 73, 0.3));
+    width: 100%;
+    height: 100%;
+    top: -100%;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myroller:hover .roller{
+    top: 0;
+    transition: top 0.5s;
+}
+.myroller .roller .a{
+    display: block;
+    width: 138px;
+    height: 40px;
+    background-color: var(--mycolor04);
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    color: var(--mycolor01);
+    font-size: 18px;
+    border-radius: 20px;
+
+}
+.myroller{
+    background-position: center center;
+    background-size: cover;
+}

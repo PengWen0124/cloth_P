@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Zen+Maru+Gothic&display=swap');
+/* font-family: "Honk", system-ui; */
+
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Playwrite+DE+VA+Guides&display=swap');
+/* font-family: "Playwrite DE VA Guides", cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Badeen+Display&family=Honk&family=Playwrite+DE+VA+Guides&display=swap');
+/* font-family: "Badeen Display", system-ui; */
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP&display=swap');
+/* font-family: "IBM Plex Sans JP", serif;  (漢字) */
+
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+/* font-family: "DotGothic16", serif;     (漢字) */
+
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+/* font-family: "Dela Gothic One", serif;  (漢字) */
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap');
+/* font-family: "Zen Maru Gothic", serif;  (漢字) */
+
+:root{
+    --mycolor01: #262a33;
+    --mycolor02: #3d3441;
+    --mycolor03: #44A7A6;
+    --mycolor04: #69D4D0;
+    --mycolor05: #BDBDBF;
+    --mycolor06: #5580A0;
+    --mycolor07: #CC8A4D;
+    --mycolor08: #32435F;
+    --mycolor09: #B2A59F;
+    --mycolor10: #023459;
+    --mycolor11: #1E646E;
+    --mycolor12: #002C2F;
+    --mycolor13: #001F3F;
+    --mycolor14: #3A6D8C;
+    --mycolor15: #6A9AB0;
+    --mycolor16: #EAD8B1;
+    --mycolor17: #913589;
+    --mycolor18: #A79F8F;
+    
+}
+:root{
+    --myfont001: #A79F8F;
+    --myfont002: #ECEAEA;
+    --myfont003: #DCDCDC;
+    --myfont004: #828080;
+    --myfont005: #F8F3EC;
+    --myfont006: #EBDCC6;
+    --myfont007: #DEC5A0;
+    --myfont008: #D1AD7A;
+    --myfont009: #C49654;
+    --myfont010: #AB7D3B;
+}
+
+/* 背景色 */
+.bg-001{
+    background-color: var(--mycolor01);
+}
+.bg-002{
+    background-color: var(--mycolor02);
+}
+.bg-003{
+    background-color: var(--mycolor03);
+}
+.bg-004{
+    background-color: var(--mycolor04);
+}
+.bg-005{
+    background-color: var(--mycolor05);
+}
+.bg-006{
+    background-color: var(--mycolor06);
+}
+.bg-007{
+    background-color: var(--mycolor07);
+}
+.bg-008{
+    background-color: var(--mycolor08);
+}
+.bg-009{
+    background-color: var();
+}
+.bg-010{
+    background-color: var(--mycolor10);
+}
+.bg-011{
+    background-color: var();
+}
+.bg-012{
+    background-color: var();
+}
+.bg-013{
+    background-color: var();
+}
+.bg-014{
+    background-color: var();
+}
+.bg-015{
+    background-color: var();
+}
+.bg-016{
+    background-color: var(--mycolor16);
+}
+.bg-017{
+    background-color: var(--mycolor17);
+}
+.bg-018{
+    background-color: var(--mycolor18);
+}
+
+/* 置中 */
+.bg-cover
+{
+    background-size: cover; 
+    background-position: center center;
+}
+
+
+/* // 字體 */
+.fw-100{
+    font-weight: 100;
+}
+
+.fw-200{
+    font-weight: 200;
+}
+
+.fw-300{
+    font-weight: 300;
+}
+
+.fw-400{
+    font-weight: 400;
+}
+
+.fw-500{
+    font-weight: 500;
+}
+
+.fw-600{
+    font-weight: 600;
+}
+
+.fw-700{
+    font-weight: 700;
+}
+
+.fw-800{
+    font-weight: 800;
+}
+
+.fw-900{
+    font-weight: 900;
+}
+
+/* 上方滑入 */
+.myroller{
+    position: relative;
+    overflow: hidden;
+}
+.myroller .roller{
+    position: absolute;
+    background-image: linear-gradient(90deg, rgba(95, 160, 160, 0.3), rgba(12, 31, 73, 0.3));
+    width: 100%;
+    height: 100%;
+    top: -100%;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myroller:hover .roller{
+    top: 0;
+    transition: top 0.5s;
+}
+.myroller .roller .a{
+    display: block;
+    width: 138px;
+    height: 40px;
+    background-color: var(--mycolor04);
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    color: var(--mycolor01);
+    font-size: 18px;
+    border-radius: 20px;
+
+}
+.myroller{
+    background-position: center center;
+    background-size: cover;
+}
+
+/* 左方滑入 */
+.myrollerl{
+    position: relative;
+    overflow: hidden;
+}
+.myrollerl .rollerl{
+    position: absolute;
+    background-image: linear-gradient(90deg, rgba(95, 160, 160, 0.3), rgba(12, 31, 73, 0.3));
+    width: 100%;
+    height: 100%;
+    top: -100%;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myrollerl:hover .rollerl{
+    top: 0;
+    transition: left 1s;
+}
+.myrollerl .rollerl .a{
+    display: block;
+    width: 138px;
+    height: 40px;
+    background-color: var(--mycolor04);
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    color: var(--mycolor01);
+    font-size: 18px;
+    border-radius: 20px;
+
+}
+.myrollerl{
+    background-position: center center;
+    background-size: cover;
+}
+.small-box{position:relative;border-radius:.25rem;display:block;margin-bottom:1rem}
+.small-box .inner{padding:10px}
+.small-box .small-box-icon{
+  position:absolute; right:10px; top:10px;
+  width:72px; height:72px; opacity:.2; pointer-events:none
+}
+.small-box-footer{display:block;padding:5px 10px;background:rgba(0,0,0,.1)}
+
+.app-content { padding-top: 1rem; }
