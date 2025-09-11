@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hant">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My own clothes</title>
     <link rel="stylesheet" href="/css/css01.css">
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ingrid+Darling&family=Inspiration&family=Inder&family=Itim&family=Zen+Maru+Gothic:wght@400;700&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Ingrid+Darling&family=Inspiration&family=Inder&family=Itim&family=Zen+Maru+Gothic:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
             font-family: "Zen Maru Gothic", serif;
@@ -87,6 +87,90 @@
         .carousel-item {
             height: 830px;
         }
+
+        a {
+            text-decoration: none;
+        }
+
+        .item {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .item img {
+            max-width: 100%;
+            border-radius: 6px;
+            margin-bottom: 10px;
+        }
+
+        .item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .main_title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .sub_title {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .price {
+            margin: 10px 0;
+        }
+
+        .price .sale {
+            color: #d9534f;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        .price .origin {
+            text-decoration: line-through;
+            color: #999;
+        }
+
+        .qty {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10px 0;
+        }
+
+        .qty .bt {
+            padding: 5px 10px;
+            border: 1px solid #ddd;
+            cursor: pointer;
+        }
+
+        .qty_num {
+            padding: 5px 15px;
+            border-top: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .add_btn {
+            background: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .add_btn:hover {
+            background: #0056b3;
+        }
     </style>
 </head>
 
@@ -96,11 +180,12 @@
         <div class="container-fluid px-4 max-w-[1440px] mx-auto flex justify-between items-center">
             <span class="navbar-text text-2xl">My Wear - 你的風格，由你決定</span>
             <div class="flex gap-12 flex-wrap justify-center">
-                <a href="#" class="text-2xl">首頁</a>
-                <a href="#" class="text-2xl ">產品介紹</a>
+                <a href="/" class="text-2xl ">首頁</a>
+                <a href="/commodity" class="text-2xl ">產品介紹</a>
+                <a href="/qa" class="text-2xl ">Q&A</a>
                 <a href="#footer" class="text-2xl ">關於我們</a> <!-- 這裡指向頁腳 -->
                 <a href="#" class="text-2xl ">會員登入</a>
-                <a href="admin/Backstage_login.html" class="text-2xl">後臺管理</a>
+                <a href="/myadmin" class="text-2xl">後臺管理</a>
             </div>
         </div>
     </nav>
@@ -139,7 +224,7 @@
                     <div class="flex justify-center gap-3">
                         <img class="w-10 h-10" src="/images/link/instagram.jpg" alt="Instagram">
                         <img class="w-10 h-10" src="/images/link/Facebook.jpg" alt="Facebook">
-                        <img class="w-10 h-10" src="/images/link/YouTube.jpg"" alt=" YouTube">
+                        <img class="w-10 h-10" src="/images/link/YouTube.jpg" alt=" YouTube">
                     </div>
                 </div>
             </div>
