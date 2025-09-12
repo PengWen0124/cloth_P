@@ -1,7 +1,7 @@
 
 <div class="card border-0">
-    <div class="card-header d-flex justify-content-between align-items-center">
-        <h5 class="card-title">會員列表</h5>
+  <div class="card-header text-center">  <!-- 直接置中文字 -->
+        <h5 class="card-title">會員紀錄</h5>
     </div>
     <div class="card-body">
         <table class="table table-striped" id="memberTable">
