@@ -1,16 +1,9 @@
 <div class="fw-900 mb-3">
-    <h4>會員資料表</h4>
 </div>
 <div class="card border-0">
-    <div class="card-header d-flex justify-content-between align-items-center">
-        <h5 class="card-title">會員列表</h5>
-        <div>
-            <select class="form-select w-auto d-inline-block" id="roleFilter">
-                <option value="all">全部</option>
-                <option value="一般用戶">一般用戶</option>
-                <option value="批發商">批發商</option>
-            </select>
-        </div>
+  <div class="card-header text-center">  <!-- 直接置中文字 -->
+        <h5 class="card-title">商品列表</h5>
+
     </div>
     <div class="card-body">
         <table class="table table-striped" id="memberTable">
@@ -22,7 +15,7 @@
                     <th>售價</th>
                     <th>描述</th>
                     <th>類別</th>
-                    <th>註冊日期</th>
+                    <th>新增日期</th>
                 </tr>
             </thead>
             <tbody>

@@ -134,11 +134,8 @@
 		</div>
 	</div>
 	<div class="footer">全端網頁程式設計青年專班第01期(2025/06/30~2025/09/19)</div>
-
-
-
+	
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
-	<script src="/js/jquery-3.7.1.min.js"></script>
+	<script src="/public/js/jquery-3.7.1.min.js"></script>
 </body>
-
 </html>

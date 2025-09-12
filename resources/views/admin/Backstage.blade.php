@@ -34,7 +34,6 @@
           </li>
           <li class="sidebar-item">
             <a
-              href="#"
               class="sidebar-link collapsed"
               data-bs-target="#pages"
               data-bs-toggle="collapse"
@@ -55,7 +54,6 @@
           </li>
           <li class="sidebar-item">
             <a
-              href="#"
               class="sidebar-link collapsed"
               data-bs-target="#posts"
               data-bs-toggle="collapse"
@@ -67,19 +65,15 @@
               class="sidebar-dropdown list-unstyled collapse"
               data-bs-parent="#sidebar">
               <li class="sidebar-item">
-                <a href="product/list" class="sidebar-link ajax-link">商品欄</a>
+                <a href="product/list" class="sidebar-link ajax-link">商品列表</a>
               </li>
               <li class="sidebar-item">
                 <a href="product/add" class="sidebar-link ajax-link">新增商品</a>
-              </li>
-              <li class="sidebar-item">
-                <a href="#" class="sidebar-link">未開發</a>
               </li>
             </ul>
           </li>
           <li class="sidebar-item">
             <a
-              href="#"
               class="sidebar-link collapsed"
               data-bs-target="#auth"
               data-bs-toggle="collapse"
@@ -96,14 +90,10 @@
               <li class="sidebar-item">
                 <a href="orders/add" class="sidebar-link ajax-link">新增訂單</a>
               </li>
-              <li class="sidebar-item">
-                <a href="#" class="sidebar-link">未開發</a>
-              </li>
             </ul>
           </li>
           <li class="sidebar-item">
             <a
-              href="#"
               class="sidebar-link collapsed"
               data-bs-target="#settings"
               data-bs-toggle="collapse"
@@ -132,10 +122,6 @@
       <nav class="navbar sticky-top bg-white border-bottom shadow-sm">
         <div class="container-fluid">
           <h5 class="mb-0">後臺首頁</h5>
-          <ol class="breadcrumb mb-0">
-            <li class="breadcrumb-item"><a href="#">首頁</a></li>
-            <li class="breadcrumb-item active" aria-current="page">儀表板</li>
-          </ol>
         </div>
       </nav>
 
@@ -579,9 +565,9 @@
     </div>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="/js/jquery-3.7.1.min.js"></script>
-  <script src="/js/script.js"></script>
-  <script src="/js/admin.js"></script>
+  <script src="/public/js/jquery-3.7.1.min.js"></script>
+  <script src="/public/js/script.js"></script>
+  <script src="/public/js/admin.js"></script>
 
   <script>
     // 找到所有有 class="ajax-link" 的連結
