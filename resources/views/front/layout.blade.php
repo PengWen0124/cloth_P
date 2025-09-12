@@ -12,7 +12,6 @@
     <style>
         body {
             font-family: "Zen Maru Gothic", serif;
-            background-image: url('/images/tea001.png');
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
@@ -195,7 +194,7 @@
 
     <!-- 頁腳 -->
     <footer class="bg-stone-400 py-12 relative" id="footer">
-        <div class="w-full h-[200px] absolute inset-0 bg-cover" style="background-image: url('/images/002.png');"></div>
+        <div class="w-full h-[200px] absolute inset-0 bg-cover" ></div>
         <div class="max-w-[1200px] mx-auto px-4 relative text-white">
             <div class="row g-4">
                 <div class="col-md-3 text-center">
@@ -216,6 +215,8 @@
                 </div>
                 <div class="col-md-3 text-center">
                     <h3 class="mb-3">聯絡我們</h3>
+                    <p>服務時間：週一至週五</p>
+                    <p>上班時間上午9:00至下午5:00</p>
                     <p>信箱：example@example.com</p>
                     <p>電話：04-2359-2181</p>
                 </div>

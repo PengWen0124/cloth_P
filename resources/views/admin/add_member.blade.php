@@ -40,7 +40,7 @@
     </div>
   </div>
   
-  <script src="../js/jquery-3.7.1.min.js"></script>
+  <script src="/public/js/jquery-3.7.1.min.js"></script>
   <script>
   $(document).ready(function () {
 
@@ -58,7 +58,7 @@
   
       // 發送AJAX請求到後端
       $.ajax({
-        url: '../member_control_api_v1.php?action=register', // 替換為實際路徑
+        url: 'cloth_P/member_control_api_v1.php?action=register', // 替換為實際路徑
         method: 'POST',
         data: JSON.stringify(formData), // 將數據轉為JSON格式
         contentType: 'application/json', // 指定傳輸格式為JSON

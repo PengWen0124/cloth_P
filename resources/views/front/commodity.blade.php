@@ -2,11 +2,6 @@
 @section("content")
 <div class="max-w-[1440px] mx-auto">
 
-    <!-- 品牌介紹 -->
-    <section class="py-12 bg-neutral-200">
-        <div class="max-w-[1200px] mx-auto px-4">
-        </div>
-    </section>
 
     <!-- 常見產品 -->
     <section class="py-12 bg-neutral-200">
