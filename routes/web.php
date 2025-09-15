@@ -9,6 +9,7 @@ use App\Http\Controllers\QAcontroller;
 use App\Models\member;
 use Illuminate\Support\Facades\Route;
 
+
 Route::get('/', function () {
     return view('front.home');
 });
