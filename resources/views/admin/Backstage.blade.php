@@ -24,7 +24,7 @@
         <ul class="sidebar-nav">
           <li class="sidebar-item">
             <a
-              href="#"
+              href="home"
               data-load="front_page.html"
               data-target="#content"
               class="sidebar-link">
@@ -111,7 +111,7 @@
                 <a href="account/setting" class="sidebar-link ajax-link">帳號設定</a>
               </li>
               <li class="sidebar-item">
-                <a href="#" class="sidebar-link">登出</a>
+                <a href="logout" class="sidebar-link">登出</a>
               </li>
             </ul>
           </li>

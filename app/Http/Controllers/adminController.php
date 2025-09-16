@@ -43,12 +43,18 @@ class adminController extends Controller
     public function info()
     {
         $nowLogin = session('managerId'); // 取得名字
-        return view("admin.Manager",compact("nowLogin"));
+        return view("admin.Manager", compact("nowLogin"));
     }
 
     public function setting()
     {
         $list = member::get();
         return view("admin.Manager_setting", compact("list"));
+    }
+
+    public function logout()
+    {
+        session()->forget("managerId"); // 清除登入紀錄
+        return redirect("/");    // 回到首頁
     }
 }

@@ -12,7 +12,7 @@ class ordersController extends Controller
         // 取得所有商品資料
         $list = orders::get();
         
-        return view('admin.product', compact('list'));
+        return view('admin.orders', compact('list'));
     }
 
     public function add()

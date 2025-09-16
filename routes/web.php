@@ -28,8 +28,9 @@ Route::get("/commodity", [commodityController::class, "list"]);
 Route::group(["prefix" => "myadmin"], function () {
     Route::get("/", [AdminController::class, "showLogin"]);
     Route::post("login", [AdminController::class, "login"]);
-    //Route::get("logout", [AdminController::class, "logout"]);
+    Route::get("logout", [AdminController::class, "logout"]);
     Route::get("home", [AdminController::class, "home"])->middleware("manager");
+    
 });
 
 Route::group(["middleware" => ["manager"], "prefix" => "myadmin/"], function () {
@@ -39,7 +40,6 @@ Route::group(["middleware" => ["manager"], "prefix" => "myadmin/"], function () 
             $list = member::all();
             return view('admin.member', compact('list')); // Blade 只輸出表格部分
         })->name('member.list');
-
         Route::get("add", [mc::class, "add"]);
     });
 
