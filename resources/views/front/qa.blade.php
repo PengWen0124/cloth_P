@@ -6,7 +6,7 @@
 <section class="bg-neutral-200 py-12">          
   <div class="container">                        
     <h2 class="text-yellow-800 text-6xl font-['Zen_Maru_Gothic'] text-center mb-10">
-      活動Q&A
+      常見Q&A
     </h2>
 
     @if(!empty($list))
