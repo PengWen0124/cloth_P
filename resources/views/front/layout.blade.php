@@ -19,6 +19,70 @@
             padding: 0;
         }
 
+        .container {
+			display: flex;
+			width: 80%;
+			height: 80vh;
+			background-color: #fcfbf9;
+			border-radius: 8px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+			overflow: hidden;
+		}
+
+        .image-container {
+			width: 50%;
+			background-image: url(/images/tea002.jpg);
+			background-size: cover;
+			background-position: center;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: white;
+			text-align: center;
+			padding: 20px;
+		}
+
+        .login-container {
+			width: 50%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			padding: 20px;
+		}
+
+        .login-container h2 {
+			margin-bottom: 20px;
+			text-align: center;
+		}
+
+        .login-container input[type="text"],
+		.login-container input[type="password"] {
+			width: 100% auto;
+			padding: 10px;
+			border: 2px solid #ccc;
+			border-radius: 10px;
+			display: block;
+			margin: 10px auto;
+		}
+
+        .login-container button {
+			width: 50%;
+			padding: 10px;
+			background-color: #828080;
+			border: none;
+			border-radius: 20px;
+			color: #ffffff;
+			font-size: 16px;
+			cursor: pointer;
+			display: block;
+			margin: auto;
+		}
+
+        .login-container button:hover {
+			background-color: #748874;
+		}
+
         .carousel-item {
             height: 60vh;
             background-size: cover;
@@ -183,7 +247,7 @@
                 <a href="/commodity" class="text-2xl ">產品介紹</a>
                 <a href="/qa" class="text-2xl ">Q&A</a>
                 <a href="#footer" class="text-2xl ">關於我們</a> <!-- 這裡指向頁腳 -->
-                <a href="#" class="text-2xl ">會員登入</a>
+                <a href="/member" class="text-2xl ">會員登入</a>
                 <a href="/myadmin" class="text-2xl">後臺管理</a>
             </div>
         </div>

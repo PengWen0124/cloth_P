@@ -13,4 +13,10 @@ class member extends Model
     protected $primaryKey = "user_id";
     //欄位
     protected $fillable = ["user_id", "Username", "Password", "Email", "Uid01", "Created_at", "Role"];
+
+    public function getMember($username, $password)
+    {
+        $member = self::where("Username", $username)->where("Password", $password)->first();
+        return $member;
+    }
 }

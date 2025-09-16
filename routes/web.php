@@ -2,7 +2,7 @@
 
 use App\Http\Controllers\adminController;
 use App\Http\Controllers\commodityController;
-use App\Http\Controllers\memberController;
+use App\Http\Controllers\memberController as mc;
 use App\Http\Controllers\ordersController;
 use App\Http\Controllers\productController;
 use App\Http\Controllers\QAcontroller;
@@ -13,8 +13,16 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('front.home');
 });
+
+Route::group(["prefix" => "member"], function () {
+    Route::get("/", [mc::class, "showLogin"]);
+    Route::post("login", [mc::class, "login"]);
+    Route::get("orders", [mc::class, "orders"]);
+
+});
+
 Route::get("/qa", [QAcontroller::class, "list"]);
-//Route::get("/product", [productController::class, "list"]);
+
 Route::get("/commodity", [commodityController::class, "list"]);
 
 Route::group(["prefix" => "myadmin"], function () {
@@ -32,7 +40,7 @@ Route::group(["middleware" => ["manager"], "prefix" => "myadmin/"], function () 
             return view('admin.member', compact('list')); // Blade 只輸出表格部分
         })->name('member.list');
 
-        Route::get("add", [memberController::class, "add"]);
+        Route::get("add", [mc::class, "add"]);
     });
 
     Route::group(["prefix" => "product"], function () {
