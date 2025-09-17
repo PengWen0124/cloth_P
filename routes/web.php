@@ -11,9 +11,9 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', function () {
-    // echo "前端 / home";
-    return view('front.abc');
-    // return view('front.home');
+    
+    
+     return view('front.home');
 });
 
 Route::group(["prefix" => "member"], function () {
