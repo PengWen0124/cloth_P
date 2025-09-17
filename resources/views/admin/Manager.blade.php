@@ -4,16 +4,12 @@
         <div class="card-body">
             <div class="row">
                 <div class="col-md-4 text-center">
-                    <img src="/public/images/theboy.gif" class="img-fluid rounded-circle mb-3" alt="管理者頭像" style="max-width: 150px;">
                     <h5>管理者</h5>
                     <p class="text-muted">Admin</p>
                 </div>
                 <div class="col-md-8">
                     <table class="table table-borderless">
-                        <tr>
-                            <td class="fw-bold">使用者名稱</td>
-                            <td>{{ $nowLogin }}</td>
-                        </tr>
+                       
                         <tr>
                             <td class="fw-bold">信箱</td>
                             <td>admin01@saunchar.com</td>
