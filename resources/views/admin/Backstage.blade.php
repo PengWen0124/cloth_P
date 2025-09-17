@@ -45,7 +45,7 @@
               class="sidebar-dropdown list-unstyled collapse"
               data-bs-parent="#sidebar">
               <li class="sidebar-item">
-                <a href="{{ route('member.list') }}" class="sidebar-link ajax-link">會員紀錄</a>
+                <a href="member/list" class="sidebar-link ajax-link">會員紀錄</a>
               </li>
               <li class="sidebar-item">
                 <a href="member/add" class="sidebar-link ajax-link">新增會員</a>

@@ -41,7 +41,7 @@ Route::group(["middleware" => ["manager"], "prefix" => "myadmin/"], function () 
         Route::get('list', function () {
             $list = member::all();
             return view('admin.member', compact('list')); // Blade 只輸出表格部分
-        })->name('member.list');
+        });
         Route::get("add", [mc::class, "add"]);
     });
 

@@ -24,7 +24,7 @@ class adminController extends Controller
 
 
         $manager = (new Manager())->getManager($username, $password);
-
+        
         if (empty($manager)) {
             return back()->withInput()->withErrors(["err" => "帳號或密碼錯誤"]);
             exit;
