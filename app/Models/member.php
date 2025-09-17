@@ -8,7 +8,7 @@ class member extends Model
 {
     public $timestamps = false;
     // 資料表名稱
-    protected $table = "users";
+    protected $table = "member";
     // 主鍵
     protected $primaryKey = "user_id";
     //欄位
