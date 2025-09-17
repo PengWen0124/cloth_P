@@ -11,6 +11,7 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', function () {
+    echo "前端 / home";
     return view('front.home');
 });
 
