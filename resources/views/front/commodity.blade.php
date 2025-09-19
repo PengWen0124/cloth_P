@@ -10,7 +10,7 @@
                 <!-- 1 純棉 Cotton -->
                 <div class="col-md-4">
                     <div class="item">
-                        <img src="/images/cotton.jpg" alt="純棉">
+                        <img src="/images/Cotton.jpg" alt="純棉">
                         <div class="main_title">純棉 Cotton</div>
                         <div class="sub_title">柔軟親膚 吸汗透氣</div>
                         <div class="price"><span class="sale">NT$690</span><span class="origin">NT$890</span></div>
@@ -20,7 +20,7 @@
                 <!-- 2 亞麻 Linen -->
                 <div class="col-md-4">
                     <div class="item">
-                        <img src="/images/linen.jpg" alt="亞麻">
+                        <img src="/images/Linen.jpg" alt="亞麻">
                         <div class="main_title">亞麻 Linen</div>
                         <div class="sub_title">清爽快乾 夏日首選</div>
                         <div class="price"><span class="sale">NT$990</span><span class="origin">NT$1,280</span></div>
