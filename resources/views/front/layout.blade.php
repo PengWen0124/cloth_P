@@ -22,11 +22,11 @@
         .container {
 			display: flex;
 			width: 80%;
-			height: 80vh;
+			
 			background-color: #fcfbf9;
 			border-radius: 8px;
 			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-			overflow: hidden;
+			
 		}
 
         .image-container {
